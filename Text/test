@@ -1,0 +1,11 @@
+from room import Room
+
+global dining_hall_object = None
+
+def get_dining_hall():
+  global dining_hall_object
+    
+  if dining_hall_object is None:
+    dining_hall_object = Room("Dining Hall")
+        
+  return dining_hall_object

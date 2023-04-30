@@ -1,0 +1,11 @@
+elif command == "hug":
+    if inhabitant is not None:
+      if isinstance(inhabitant, Enemy):
+        print("I wouldn't do that if I were you...")
+        print("")
+      else:
+        inhabitant.hug()
+    else:
+      print("There is no one here to hug :(")
+      print("")
+
